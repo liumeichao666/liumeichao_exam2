@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mvp.home.view.activity.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户名"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名"
+        android:gravity="center"
+        />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密    码"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:hint="请输入密码"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确认密码"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+
+        <EditText
+            android:id="@+id/edit_querenmima"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:hint="确认密码"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+</LinearLayout>
